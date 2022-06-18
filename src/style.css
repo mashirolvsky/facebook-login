@@ -20,7 +20,7 @@ main{
 }
 
 #chamada-facebook{
-    margin-top: 100px;
+    margin-top: 60px;
     width: 370px;
     float: left;
 }
@@ -47,7 +47,7 @@ form{
     box-shadow: 0 2px 4px rgba(0, 0 , 0, 0.1), 0 8px 16px rgb(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 14px;
-    margin: 120px 20px 20px 20px;
+    margin: 50px 20px 20px 20px;
 }
 
 form input[type="text"], form input[type="password"]{
@@ -56,9 +56,8 @@ form input[type="text"], form input[type="password"]{
     margin-bottom: 10px;
     padding: 18px;
     font-size: 16px;
-
-
-
+    
+    
     color: #1d2129;
     outline: none;
     caret-color: #005eff;
@@ -66,8 +65,9 @@ form input[type="text"], form input[type="password"]{
     border: 1px solid #dddfe2;
 }
 
-form input[type="text"], form input[type="password"]:focus{
+form input[type="text"]:focus, form input[type="password"]:focus{
     border: 1px solid #005eff;
+    box-shadow:0 0 2px #0077ff;
 
 }
 
@@ -79,7 +79,7 @@ form input:focus::placeholder{
 }
 
 form input[type="submit"]{
-    width: 315px;
+    width: 320px;
     border: none;
     padding: 14px;
     
@@ -99,15 +99,39 @@ form input[type="submit"]:hover{
 
 .esqueceuSenha{
     display: block;
-
+    
 
     text-decoration: none;
     color: #0077ff;
-    margin-top: 15px;
+    margin: 20px 0px;
     font-size: 13px;
     font-weight: 400;
     text-align: center;
 }
 .esqueceuSenha:hover{
     text-decoration: underline;
+}
+.customizadoHR{
+    width: 100%;
+    border-bottom: 1px solid #dddfe2;
+    margin: 20px auto;
+}
+
+.criarConta{
+    background-color: #48ce2e;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-left: 72px;
+    display: inline-block ;
+
+
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+
+.criarConta:hover{
+    background-color: #42a82e;
 }
